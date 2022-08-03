@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FASTERSKYshoes - Distribuidora</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/41aadf3d71.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+   
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
+</head>
+
+    <header>
+        
+        <nav>
+            <div>
+                <img src="/essets/img/logo.png" alt="" class="logo" width="170px">
+            </div>
+            <input type="checkbox" id="check">
+            <label for="check" class="checkbtn">
+                <i class="fas fa-bars"></i>
+            </label>
+            
+            <label for="shop" class="shop">
+                
+                <button id="boton-carrito"><i class="fas fa-shopping-cart"></i><span id="contadorCarrito">0</span></button>
+                
+            </label>
+            
+            
+            <ul class="menu">
+                <li><a class="active" href="#">HOME</a></li>
+                <li><a href="#">SHOP</a></li>
+                <li><a href="#">NOSOTROS</a></li>
+                <li><a href="#">CONTACTO</a></li>
+                
+            </ul>
+        </nav>
+    </header>
+    
+    <body>       
+    <div class="tituloofertas">
+        <h1 class="tituloofertas">NIKE MAS DESTACADAS:</h1>
+    </div>
+
+    <div class="ofertascontenedor" id="producto-contenedor2">
+        
+ 
+    </div>
+    
+    <div class="segundotitulo">
+        <h2 class="sub1">Mas vendidas</h2>
+        
+    </div>
+    
+    <div class="contenedorbody" id="producto-contenedor">
+
+    </div>
+
+    <div class="modal-contenedor">
+        <div class="modal-carrito">
+            <h3>Carrito</h3>
+            <button id="carritoCerrar"><i class="fas fa-times-circle"></i></button>
+            <div id="carrito-contenedor">
+                
+            </div>
+            <p class="precioProducto">Precio total: $<span id="precioTotal">0</span></p>
+            <button id="vaciar-carrito" class="vaciar">Vaciar carrito</button>
+        </div>
+    </div>
+    
+
+    <footer class="footer-distributed">
+
+      <div class="footer-right">
+        
+        
+        <a href="https://www.instagram.com/nlenechmidt/" target="_blank"><i class="fa fa-instagram"></i></a>
+        <a href="https://www.linkedin.com/in/nicolas-lenechmidt-868146240/" target="_blank"><i class="fa fa-linkedin"></i></a>
+        <a href="https://github.com/lenico96" target="_blank"><i class="fa fa-github"></i></a>
+
+      </div>
+
+      <div class="footer-left">
+
+        <p class="footer-links">
+          <a class="link-1" href="#">HOME</a>
+
+          <a href="#">SHOP</a>
+
+          <a href="#">NOSOTROS</a>
+
+          <a href="#">CONTACTO</a>
+
+        </p>
+
+        <p>FASTERSKYshoes &copy; 2022</p>
+        <h3 class="cora">Hecho con el ♥ Nicolas Lenechmidt</h3>
+      </div>
+
+    </footer>
+
+    
+    </body>
+    
+
+
+    <script src="./stock/prodDestacados.js"></script>
+    <script src="./stock/prodMasVendidos.js"></script>
+    <script src="./funcionesPrincipales/funcionesDestacados.js"></script>
+    <script src="./modal/modal.js"></script>
+    <script src="./funcionesPrincipales/funcionesMasVendidos.js"></script>
+    <script src="./data/appMasVendido.js"></script>
+    <script src="./data/appDestacado.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    </body>
+    <script src="https://kit.fontawesome.com/41aadf3d71.js" crossorigin="anonymous"></script>
+    
+</html>
